@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grisons Locks</title>
+
+    <link rel="stylesheet" href="css\style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600;700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <header class="header" >
+        <img src="resources/grisons_logo.png" alt="Grisons logo" class="logo">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="#" class="navbar-links"> Home</a></li>
+                <li><a href="#" class="navbar-links"> Products</a></li>
+                <li><a href="#" class="navbar-links"> Gallery</a></li>
+                <li><a href="#" class="navbar-links"> About</a></li>
+                <li><a href="#" class="navbar-links"> Support</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="mobile-navbar-btn">
+            
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+
+    </header>
+
+
+
+
+
+<section class="banner_slider">
+    <div class="slide">
+        <div class="slide_content">
+            <p> Welcome to <span style="color:antiquewhite; font-style: italic; "> Grisons-Locks </span>  </p>           
+             <h2> We’ve got you covered ‼️ </h2>
+            <div class="button_wrap">
+                <a href="#" class="btn btn_transparent"> View more </a>
+                <a href="#" class="btn"> Products </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide slide_two">
+        <div class="slide_content">
+            <p> Welcome to <span style="color:antiquewhite; font-style: italic; "> Grisons-Locks </span>  </p>
+            <h2> Security is an investment !</h2>
+            <div class="button_wrap">
+                <a href="#" class="btn btn_transparent"> Support </a>
+                <a href="#" class="btn"> about us </a>
+            </div>
+        </div>
+    </div>
+    <div class="slide slide_three">
+        <div class="slide_content">
+            <p> Welcome to <span style="color:antiquewhite; font-style: italic; "> Grisons-Locks </span>  </p>   
+             <h2> Customised Locks </h2>
+            <div class="button_wrap">
+                <a href="#" class="btn btn_transparent"> Support </a> 
+                <a href="#" class="btn"> About us </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+
+    $('.banner_slider').slick({
+        dots:true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows:true,
+        speed:1500,
+        infinite:true,
+        adaptiveHeight: true,
+        drag: true,
+        prevArrow: '<div class="slick-arrow prev"><span class="fa fa-angle-left"></span></div>',
+        nextArrow: '<div class="slick-arrow next"><span class="fa fa-angle-right"></span></div>' })
+
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="index.js"></script>
+
+</body>
+
+</html>
